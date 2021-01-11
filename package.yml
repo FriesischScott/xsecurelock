@@ -1,0 +1,25 @@
+name       : xsecurelock
+version    : 1.7.0
+release    : 1
+source     :
+    - https://github.com/google/xsecurelock/releases/download/v1.7.0/xsecurelock-1.7.0.tar.gz : 874178746dbbef6d4ec802ec96e70432a9bb0b559b4129300a7ac31e5e325868
+license    : GPL-2.0
+component  : PLEASE FILL ME IN
+summary    : XSecureLock is an X11 screen lock utility designed with the primary goal of security.
+description: |
+    XSecureLock is an X11 screen lock utility designed with the primary goal of security.
+builddeps  :
+    - mpv
+    - pkgconfig(x11)
+    - pkgconfig(xcomposite)
+    - pkgconfig(xext)
+    - pkgconfig(xfixes)
+    - pkgconfig(xft)
+    - pkgconfig(xmu)
+    - pam-devel
+setup      : |
+    %configure --with-pam-service-name=login
+build      : |
+    %make
+install    : |
+    %make_install

@@ -1,0 +1,46 @@
+<PISI>
+    <Source>
+        <Name>xsecurelock</Name>
+        <Packager>
+            <Name>Jasper Behrensdorf</Name>
+            <Email>jasper.behrensdorf@gmail.com</Email>
+        </Packager>
+        <License>GPL-2.0</License>
+        <PartOf>PLEASE FILL ME IN</PartOf>
+        <Summary xml:lang="en">XSecureLock is an X11 screen lock utility designed with the primary goal of security.</Summary>
+        <Description xml:lang="en">XSecureLock is an X11 screen lock utility designed with the primary goal of security.
+</Description>
+        <Archive type="binary" sha1sum="79eb0752a961b8e0d15c77d298c97498fbc89c5a">https://getsol.us/sources/README.Solus</Archive>
+    </Source>
+    <Package>
+        <Name>xsecurelock</Name>
+        <Summary xml:lang="en">XSecureLock is an X11 screen lock utility designed with the primary goal of security.</Summary>
+        <Description xml:lang="en">XSecureLock is an X11 screen lock utility designed with the primary goal of security.
+</Description>
+        <PartOf>PLEASE FILL ME IN</PartOf>
+        <Files>
+            <Path fileType="executable">/usr/bin/xsecurelock</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/auth_x11</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/authproto_pam</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/dimmer</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/pgrp_placeholder</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/saver_blank</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/saver_mpv</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/saver_multiplex</Path>
+            <Path fileType="library">/usr/lib64/xsecurelock/xsecurelock/until_nonidle</Path>
+            <Path fileType="doc">/usr/share/doc/xsecurelock/CONTRIBUTING</Path>
+            <Path fileType="doc">/usr/share/doc/xsecurelock/LICENSE</Path>
+            <Path fileType="doc">/usr/share/doc/xsecurelock/README.md</Path>
+            <Path fileType="doc">/usr/share/doc/xsecurelock/examples/saver_livestreams</Path>
+        </Files>
+    </Package>
+    <History>
+        <Update release="1">
+            <Date>2021-01-11</Date>
+            <Version>1.7.0</Version>
+            <Comment>Packaging update</Comment>
+            <Name>Jasper Behrensdorf</Name>
+            <Email>jasper.behrensdorf@gmail.com</Email>
+        </Update>
+    </History>
+</PISI>
